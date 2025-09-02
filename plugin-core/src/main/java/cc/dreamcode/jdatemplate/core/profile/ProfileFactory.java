@@ -7,7 +7,6 @@ import lombok.RequiredArgsConstructor;
 import org.bukkit.Server;
 import org.bukkit.entity.HumanEntity;
 
-import java.util.UUID;
 import java.util.function.Consumer;
 
 @RequiredArgsConstructor(onConstructor_ = @Inject)

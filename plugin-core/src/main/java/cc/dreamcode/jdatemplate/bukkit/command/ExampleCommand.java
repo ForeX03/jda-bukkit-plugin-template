@@ -1,7 +1,10 @@
 package cc.dreamcode.jdatemplate.bukkit.command;
 
 import cc.dreamcode.command.CommandBase;
-import cc.dreamcode.command.annotation.*;
+import cc.dreamcode.command.annotation.Async;
+import cc.dreamcode.command.annotation.Command;
+import cc.dreamcode.command.annotation.Executor;
+import cc.dreamcode.command.annotation.Permission;
 import cc.dreamcode.jdatemplate.core.config.MessageConfig;
 import cc.dreamcode.jdatemplate.core.config.PluginConfig;
 import cc.dreamcode.notice.bukkit.BukkitNotice;

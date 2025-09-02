@@ -4,7 +4,6 @@ import com.google.common.collect.Maps;
 import lombok.NonNull;
 import org.bukkit.entity.HumanEntity;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 

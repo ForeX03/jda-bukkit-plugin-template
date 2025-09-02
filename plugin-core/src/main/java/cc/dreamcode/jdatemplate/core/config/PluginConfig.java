@@ -1,6 +1,6 @@
 package cc.dreamcode.jdatemplate.core.config;
 
-import cc.dreamcode.jdatemplate.core.config.subconfig.*;
+import cc.dreamcode.jdatemplate.core.config.subconfig.BotConfig;
 import cc.dreamcode.jdatemplate.discord.jda.embed.DreamEmbed;
 import cc.dreamcode.platform.bukkit.component.configuration.Configuration;
 import cc.dreamcode.platform.persistence.StorageConfig;

@@ -1,6 +1,5 @@
 package cc.dreamcode.jdatemplate.core.config;
 
-import cc.dreamcode.jdatemplate.discord.jda.sender.message.BotMessage;
 import cc.dreamcode.notice.bukkit.BukkitNotice;
 import cc.dreamcode.platform.bukkit.component.configuration.Configuration;
 import eu.okaeri.configs.OkaeriConfig;
