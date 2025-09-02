@@ -1,4 +1,3 @@
-[![wakatime](https://wakatime.com/badge/user/445f5b8a-7b0b-4e4e-846e-33a420f02dfb/project/390546ff-cd42-4261-8977-848665340930.svg)](https://wakatime.com/badge/user/445f5b8a-7b0b-4e4e-846e-33a420f02dfb/project/390546ff-cd42-4261-8977-848665340930)
 
 **Libraries**: <33
 - [Dream-Platform](https://github.com/DreamPoland/dream-platform) by [DreamCode](https://github.com/DreamPoland)
