@@ -10,7 +10,7 @@ idea {
 }
 
 allprojects {
-    group = "cc.dreamcode.dsmp"
+    group = "cc.dreamcode.jdatemplate"
     version = "1.0"
 
     apply(plugin = "java-library")
@@ -40,7 +40,7 @@ subprojects {
 
     dependencies {
         /* General */
-        val lombok = "1.18.34"
+        val lombok = "1.18.38"
         compileOnly("org.projectlombok:lombok:$lombok")
         annotationProcessor("org.projectlombok:lombok:$lombok")
         testCompileOnly("org.projectlombok:lombok:$lombok")

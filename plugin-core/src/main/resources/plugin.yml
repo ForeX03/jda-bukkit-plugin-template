@@ -1,0 +1,7 @@
+main: "cc.dreamcode.jdatemplate.JDAPlugin"
+version: "1.0"
+name: "Dream-JDATemplate"
+description: "Dream-JDATemplate written by dreamcode.cc"
+website: "https://dreamcode.cc"
+author: "author"
+api-version: 1.13

@@ -1,3 +1,3 @@
-rootProject.name = "DSMP-Core"
+rootProject.name = "jda-bukkit-plugin-template"
 
-include(":dsmp-core")
+include(":plugin-core")

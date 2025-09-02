@@ -1,7 +1,0 @@
-main: "cc.dreamcode.dsmp.DSMPCore"
-version: "1.0"
-name: "DSMP-Core"
-description: "DSMP-Core written by ForeX03 (dreamcode.cc)"
-website: "https://dreamcode.cc"
-author: "ForeX03"
-api-version: 1.13
