@@ -25,70 +25,15 @@ public class PluginConfig extends OkaeriConfig {
     @Comment
     @Comment("Ponizej znajduja sie dane do logowania bazy danych:")
     @CustomKey("storage-config")
-    public StorageConfig storageConfig = new StorageConfig("dsmp-core");
+    public StorageConfig storageConfig = new StorageConfig("jdatemplate");
 
     @Comment
     @CustomKey("bot")
     public BotConfig botConfig = new BotConfig();
 
     @Comment
-    @CustomKey("chat-bridge")
-    public BridgeConfig bridgeConfig = new BridgeConfig();
-
-    @Comment
-    @CustomKey("chat")
-    public ChatConfig chatConfig = new ChatConfig();
-
-    @Comment
-    @CustomKey("whitelist")
-    public WhitelistConfig whitelistConfig = new WhitelistConfig();
-
-    @Comment
-    @CustomKey("msg")
-    public DirectMessageConfig directMessageConfig = new DirectMessageConfig();
-
-    @Comment
-    @CustomKey("bot-activity")
-    public ActivityConfig activityConfig = new ActivityConfig();
-
-    @Comment
-    @CustomKey("verification")
-    public VerificationConfig verificationConfig = new VerificationConfig();
-
-    @Comment
-    @CustomKey("portal")
-    public PortalConfig portalConfig = new PortalConfig();
-
-    @Comment
-    @CustomKey("world-border")
-    public WorldBorderConfig worldBorderConfig = new WorldBorderConfig();
-
-    @Comment
-    @CustomKey("channel-stats")
-    public StatsConfig statsConfig = new StatsConfig();
-
-    @Comment
-    @Comment("Embedy możliwe do wysłania przez komende /dsmp send-embed na serwerze discord")
     @CustomKey("embeds")
     public Map<String, DreamEmbed> embedMap = new MapBuilder<String, DreamEmbed>()
-            .put("season-coming", new DreamEmbed()
-                    .setColor("#7e4abb")
-                    .addDescription(ListBuilder.of(
-                            "## DreamSMP - II EDYCJA NADCHODZI! 🌟",
-                            " ",
-                            "### 🛠️ Ostatnie poprawki w toku!",
-                            "🔧 **Prace nad serwerem zbliżają się ku końcowi!**",
-                            " ",
-                            "### ⏰ Kiedy startujemy?",
-                            "📅 Już niedługo podamy dokładną datę – **obserwuj nas, żeby nic Ci nie umknęło!**",
-                            " ",
-                            "### 🆕 Co nowego czeka na Ciebie?",
-                            "🔥 Przekonasz się wkrótce – **będzie jazda!**",
-                            " ",
-                            "### 🚀 ZAPROŚ ZNAJOMYCH I SZYKUJ SIĘ NA START!",
-                            "Nie przegap tego – **widzimy się już wkrótce** 💥"
-                    ))
-                    .setImageUrl("https://i.imgur.com/temrMHs.png"))
             .put("test-embed", new DreamEmbed()
                     .setColor("#ffffff")
                     .setTitle("title")
