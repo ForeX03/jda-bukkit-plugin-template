@@ -36,9 +36,9 @@ dependencies {
     implementation("cc.dreamcode.command:bukkit:2.1.3")
 
     // -- dream-menu --
-    implementation("cc.dreamcode.menu:core:1.3.7")
-    implementation("cc.dreamcode.menu:bukkit-adventure:1.3.7")
-    implementation("cc.dreamcode.menu:bukkit-adventure-serializer:1.3.7")
+    implementation("cc.dreamcode.menu:core:1.3.11")
+    implementation("cc.dreamcode.menu:bukkit-adventure:1.3.11")
+    implementation("cc.dreamcode.menu:bukkit-adventure-serializer:1.3.11")
 
     // -- configs--
     implementation("eu.okaeri:okaeri-configs-yaml-bukkit:5.0.2")
