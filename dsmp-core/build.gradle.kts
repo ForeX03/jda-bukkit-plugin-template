@@ -41,9 +41,9 @@ dependencies {
     implementation("cc.dreamcode.menu:bukkit-adventure-serializer:1.3.7")
 
     // -- configs--
-    implementation("eu.okaeri:okaeri-configs-yaml-bukkit:5.0.2")
-    implementation("eu.okaeri:okaeri-configs-serdes-bukkit:5.0.2")
-    implementation("eu.okaeri:okaeri-configs-serdes-commons:5.0.2")
+    implementation("eu.okaeri:okaeri-configs-yaml-bukkit:5.0.13")
+    implementation("eu.okaeri:okaeri-configs-serdes-bukkit:5.0.13")
+    implementation("eu.okaeri:okaeri-configs-serdes-commons:5.0.13")
 
     // -- persistence data --
     implementation("eu.okaeri:okaeri-persistence-flat:2.0.4")
@@ -51,8 +51,8 @@ dependencies {
     implementation("eu.okaeri:okaeri-persistence-mongo:2.0.4")
 
     // -- persistence data configure --
-    implementation("eu.okaeri:okaeri-configs-json-gson:5.0.2")
-    implementation("eu.okaeri:okaeri-configs-json-simple:5.0.2")
+    implementation("eu.okaeri:okaeri-configs-json-gson:5.0.13")
+    implementation("eu.okaeri:okaeri-configs-json-simple:5.0.13")
 
     // -- injector --
     implementation("eu.okaeri:okaeri-injector:2.1.0")
